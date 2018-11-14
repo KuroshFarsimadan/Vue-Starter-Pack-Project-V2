@@ -1,0 +1,71 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Kurosh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-tel-input
+
+PATH: 
+  C:\Users\Kurosh\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\EgisTec MyWinLocker\x64;C:\Program Files (x86)\EgisTec MyWinLocker\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Users\Kurosh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kurosh\AppData\Roaming\npm
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, open 'C:\Users\Kurosh\Desktop\Vue Starter Pack Project\vspp\node_modules\.bin\uglifyjs.cmd'
+
+npm manifest: 
+  {
+    "name": "vspp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "vue": "^2.5.17"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.0.5",
+      "@vue/cli-plugin-eslint": "^3.0.5",
+      "@vue/cli-service": "^3.0.5",
+      "babel-eslint": "^10.0.1",
+      "eslint": "^5.8.0",
+      "eslint-plugin-vue": "^5.0.0-0",
+      "vue-template-compiler": "^2.5.17"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "rules": {},
+      "parserOptions": {
+        "parser": "babel-eslint"
+      }
+    },
+    "postcss": {
+      "plugins": {
+        "autoprefixer": {}
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
